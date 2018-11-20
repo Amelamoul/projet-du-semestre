@@ -32,3 +32,4 @@ UDDI (Universal Description, Discovery and Integration) est un annuaire de servi
        . une base de donnees BD relationelle qui integre les donnees provenant des bases de donnees sur le Web; 
        . un client de la base de donnees BD.
        
+![202688serw](https://user-images.githubusercontent.com/44230045/48789814-29a74600-ecee-11e8-9e3b-2a8fb02d881e.png)
