@@ -16,50 +16,69 @@ Cloud-native est une approche pour construire et exécuter des applications qui 
 
 
 
-1)Web service
-* L'architecture Global:
-     Les services Web reprennent la plupart des idées et des principes du Web (HTTP, XML), et les appliquent à des interactions entre machines. Comme pour le World Wide Web, les services Web communiquent via un ensemble de technologies fondamentales qui partagent une architecture commune. Ils ont été conçus pour être réalisés sur de nombreux systèmes développés et déployés de façon indépendante. Les technologies utilisées par les services Web sont HTTP, WSDL, REST, XML-RPC, SOAP et UDDI.
-
-REST
- (Representational State Transfer) est une architecture de services Web. Élaborée en l'an 2000 par Roy Fiedling, l'un des créateurs du protocole HTTP, du serveur Apache HTTPd et d'autres travaux fondamentaux, REST est une manière de construire une application pour les systèmes distribués comme le World Wide Web.
-
-XML-RPC
- est un protocole simple utilisant XML pour effectuer des messages RPC. Les requêtes sont écrites en XML et envoyées via HTTP POST. Les requêtes sont intégrées dans le corps de la réponse HTTP. XML-RPC est indépendant de la plate-forme, ce qui lui permet de communiquer avec diverses applications. Par exemple, un client Java peut parler de XML-RPC à un PerlServer ! o_O
-
-SOAP
-(Simple object Access Protocol) est un protocole standard de communication. C'est l'épine dorsale du système d'interopérabilité. SOAP est un protocole décrit en XML et standardisé par le W3C. Il se présente comme une enveloppe pouvant être signée et pouvant contenir des données ou des pièces jointes.
-Il circule sur le protocole HTTP et permet d'effectuer des appels de méthodes à distance.
-
-WSDL
-(Web Services Description Language) est un langage de description standard. C'est l'interface présentée aux utilisateurs. Il indique comment utiliser le service Web et comment interagir avec lui. WSDL est basé sur XML et permet de décrire de façon précise les détails concernant le service Web tels que les protocoles, les ports utilisés, les opérations pouvant être effectuées, les formats des messages d'entrée et de sortie et les exceptions pouvant être envoyées.
-
-UDDI
-(Universal Description, Discovery and Integration) est un annuaire de services. Il fournit l'infrastructure de base pour la publication et la découverte des services Web. UDDI permet aux fournisseurs de présenter leurs services Web aux clients.
-
-![whatisaservicewebprojet](https://user-images.githubusercontent.com/44230045/48788483-35453d80-eceb-11e8-8989-1a5aef4d0ade.png)
-   
-   * l'architecture de la base de donné:
-   
-   
-   
-   
-    L’application consiste dans les composantes suivantes:
-       . un ensemble des bases de donnees Web e.g. LibraryThing, ISBNdb (au moins 2 sites Web);
-       . une base de donnees BD relationelle qui integre les donnees provenant des bases de donnees sur le Web; 
-       . un client de la base de donnees BD.
-       
-![202688serw](https://user-images.githubusercontent.com/44230045/48789814-29a74600-ecee-11e8-9e3b-2a8fb02d881e.png)
-  
-  
-  MySQL:
-  
-  
-  est un système de gestion de bases de données relationnelles (SGBDR). Il est distribué sous une double licence GPL et propriétaire. Il fait partie des logiciels de gestion de base de données les plus utilisés au monde3, autant par le grand public (applications web principalement) que par des professionnels, en concurrence avec Oracle, PostgreSQL et Microsoft SQL Server.
-
-![489px-mysql svg](https://user-images.githubusercontent.com/44230045/48791586-52313f00-ecf2-11e8-8028-0df7de86a84f.png)
+1)MVC:
 
 
-Pourquoi on a choisis les Services Web:
+Le modèle MVC décrit une manière d’architecturer une application informatique en la décomposant en trois sous-parties :
+
+la partie Modèle ;
+la partie Vue ;
+la partie Contrôleur.
+Ce modèle de conception a été imaginé à la fin des années 1970 pour le langage Smalltalk afin de bien séparer le code de l’interface graphique de la logique applicative. Il est utilisé dans de très nombreux langages : bibliothèques Swing et Model 2 (JSP) de Java, frameworks PHP, ASP.NET MVC, etc.
 
 
-Un service Web permet de mettre les données de votre SIG à la disposition d'utilisateurs qui n'ont pas forcément un accès direct aux données de votre organisation. Lorsque vous présentez votre SIG en tant que services Web, vous le rendez accessible via une multitude d'applications exécutées sur des ordinateurs de bureau, des tablettes PC et des smartphones. Vous pouvez choisir de restreindre la diffusion de vos services web à votre bureau physique, mais vous avez également la possibilité de les diffuser sur n'importe quel appareil capable de se connecter à Internet.
+
+
+
+![mvc](https://user-images.githubusercontent.com/44230045/48795502-6890c800-ecfd-11e8-8b80-57b006b5eefc.png)
+
+
+
+
+
+![370px-modelemvc](https://user-images.githubusercontent.com/44230045/48795774-19976280-ecfe-11e8-991c-1388859ddd2b.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pourquoi on a choisis le MVC:
+
+
+
+Une conception claire et efficace grâce à la séparation des données de la vue et du contrôleur
+Un gain de temps de maintenance et d’évolution du site
+Une plus grande souplesse pour organiser le développement du site entre différents développeurs (indépendance des données, de l’affichage (webdesign) et des actions)
