@@ -33,3 +33,17 @@ UDDI (Universal Description, Discovery and Integration) est un annuaire de servi
        . un client de la base de donnees BD.
        
 ![202688serw](https://user-images.githubusercontent.com/44230045/48789814-29a74600-ecee-11e8-9e3b-2a8fb02d881e.png)
+  
+  
+  MySQL:
+  
+  
+  est un système de gestion de bases de données relationnelles (SGBDR). Il est distribué sous une double licence GPL et propriétaire. Il fait partie des logiciels de gestion de base de données les plus utilisés au monde3, autant par le grand public (applications web principalement) que par des professionnels, en concurrence avec Oracle, PostgreSQL et Microsoft SQL Server.
+
+![489px-mysql svg](https://user-images.githubusercontent.com/44230045/48791586-52313f00-ecf2-11e8-8028-0df7de86a84f.png)
+
+
+Pourquoi on a choisis les Services Web:
+
+
+Un service Web permet de mettre les données de votre SIG à la disposition d'utilisateurs qui n'ont pas forcément un accès direct aux données de votre organisation. Lorsque vous présentez votre SIG en tant que services Web, vous le rendez accessible via une multitude d'applications exécutées sur des ordinateurs de bureau, des tablettes PC et des smartphones. Vous pouvez choisir de restreindre la diffusion de vos services web à votre bureau physique, mais vous avez également la possibilité de les diffuser sur n'importe quel appareil capable de se connecter à Internet.
