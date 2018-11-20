@@ -11,28 +11,13 @@ Pour gérer les problèmes liés aux changements des besoins, au développement 
 
 
 l'application Cloud-native :
-
-
-
-
-
-
 Cloud-native est une approche pour construire et exécuter des applications qui exploitent pleinement les avantages du modèle de livraison du cloud computing. L'approche Cloud-native est la façon dont les applications sont créées et déployées, non pas où elles sont exécutées. Bien que le cloud public actuel nuise à la réflexion sur l'investissement dans les infrastructures pour pratiquement toutes les industries, un modèle de livraison sans cloud n'est pas exclusif pour les environnements publics. Il convient aux cloud publics et privés. Le plus important est la capacité d'offrir des ressources informatiques presque illimitées, à la demande, ainsi que des services modernes de données et d'applications pour les développeurs. Lorsque les entreprises créent et exploitent des applications de manière native sur le cloud, elles apportent de nouvelles idées au marché plus rapidement et répondent plus rapidement aux demandes des clients.
 
 
 
 
-1)Web services:
-
-
-
-     * L'architecture Global:
-     
-     
-     
-     
-     
-     
+1)Web service
+* L'architecture Global:
      Les services Web reprennent la plupart des idées et des principes du Web (HTTP, XML), et les appliquent à des interactions entre machines. Comme pour le World Wide Web, les services Web communiquent via un ensemble de technologies fondamentales qui partagent une architecture commune. Ils ont été conçus pour être réalisés sur de nombreux systèmes développés et déployés de façon indépendante. Les technologies utilisées par les services Web sont HTTP, WSDL, REST, XML-RPC, SOAP et UDDI.
 
 REST
