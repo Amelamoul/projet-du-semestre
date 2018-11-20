@@ -133,9 +133,15 @@ une application constituée de plusieurs contrôleurs, chaque contrôleur étant
 Chaque requête HTTP est analysée par le framework qui détermine alors quel sont le contrôleur et l’action concernés. Il existe un contrôleur frontal (intégré au framework et donc transparent pour le programmeur), chargé de recevoir les requêtes HTTP, qui exécute l’action en lui passant les paramètres HTTP. Il se base notamment sur les mappings qui associent des URLs à des servlets
 
 
+La maniére de gestion des demandes des clients:
 
 
 
+le visiteur demandera la page au contrôleur et c'est la vue qui lui sera retournée. Bien entendu, tout cela est transparent pour lui, il ne voit pas tout ce qui se passe sur le serveur. C'est un schéma plus complexe que ce à quoi vous avez été habitués, bien évidemment : c'est pourtant sur ce type d'architecture que repose un grand nombre de sites professionnels .
+
+
+
+![382129mvv](https://user-images.githubusercontent.com/44230045/48800083-18b7fe00-ed09-11e8-9362-aa414cf87a8c.png)
 
 
 
