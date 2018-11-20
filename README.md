@@ -127,7 +127,7 @@ L'architecture de la couche des donnée:
 ![mvc bd](https://user-images.githubusercontent.com/44230045/48798814-c1fcf500-ed05-11e8-9ea6-e22bdcf4c4e4.png)
 
 
-
+Modèle : cette partie gère les données de votre site. Son rôle est d'aller récupérer les informations « brutes » dans la base de données, de les organiser et de les assembler pour qu'elles puissent ensuite être traitées par le contrôleur. On y trouve donc entre autres les requêtes SQL.
 une application constituée de plusieurs contrôleurs, chaque contrôleur étant lui-même constitué d’un ensemble d’actions. La première caractéristique de cette organisation est donc de structurer hiérarchiquement une application. Dans les cas simples, un seul contrôleur suffit, contenant l’ensemble des actions qui constituent l’application Web.
 
 Chaque requête HTTP est analysée par le framework qui détermine alors quel sont le contrôleur et l’action concernés. Il existe un contrôleur frontal (intégré au framework et donc transparent pour le programmeur), chargé de recevoir les requêtes HTTP, qui exécute l’action en lui passant les paramètres HTTP. Il se base notamment sur les mappings qui associent des URLs à des servlets
