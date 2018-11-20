@@ -119,7 +119,12 @@ Le contrôleur est chargé de la synchronisation du modèle et de la vue. Il re�
 
 
 
+L'architecture de la couche des donnée:
 
+
+
+
+![mvc bd](https://user-images.githubusercontent.com/44230045/48798814-c1fcf500-ed05-11e8-9ea6-e22bdcf4c4e4.png)
 
 
 
