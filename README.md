@@ -22,31 +22,6 @@ Cloud-native est une approche pour construire et exécuter des applications qui 
 
 
 
-1)les microservice:
-
-
-
-les microservices sont un style d'architecture logicielle à partir duquel un ensemble complexe d'applications est décomposé en plusieurs processus indépendants et faiblement couplés, souvent spécialisés dans une seule tâche. Les processus indépendants communiquent les uns avec les autres en utilisant des API langage-agnostiques.
-
-
-
-
-
-2)MVC:
-L'architecture Modèle/Vue/Contrôleur (MVC) est une façon d'organiser une interface graphique d'un programme. Elle consiste à distinguer trois entités distinctes qui sont, le modèle, la vue et le contrôleur ayant chacun un rôle précis dans l'interface.
-
-
-
-
-
-
-3) Monolithique:
-
-
-est un bloc de pierre de grande dimension, constitué d’un seul élément, naturel ou taillé voire déplacé par l’Homme.
-
-
-
 
 Dans notre application on a choisis L'architecture MVC
 
